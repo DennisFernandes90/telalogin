@@ -1,0 +1,24 @@
+.form-container{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(220, 220, 220);
+    padding: 20px 10px;
+}
+
+#error-message, #success-message{
+    font-style: italic;
+    font-size: .85rem;
+}
+
+#error-message{
+    color: red;
+}
+
+#success-message{
+    color: green;
+}
+
+.logout-box{
+    text-align: center;
+}
