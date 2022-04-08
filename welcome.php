@@ -18,7 +18,7 @@ if(isset($_SESSION["usuario"])){
 
     <?php
 
-        echo "<h1>Olá ".$_SESSION["usuario"].", seja bem vindo</h1>";
+        echo "<h1>Olá ".$_SESSION["usuario"].", seja bem vindo(a)</h1>";
     ?>
     <a href="?logout">Log Out</a>
     
