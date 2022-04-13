@@ -33,12 +33,12 @@ include "controller/login_usuario.php";
                 
                 <div class="mb-3">
                     <label for="username" class="form-label">Nome de usuário *</label>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="Usuario" required="">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Digite seu nome de usuario">
                     
                 </div>
                 <div class="mb-3">
                     <label for="senha1" class="form-label">Senha *</label>
-                    <input type="password" class="form-control" id="senha1" name="senha1">
+                    <input type="password" class="form-control" id="senha1" name="senha1" placeholder="Digite sua senha">
                 </div>
 
 

@@ -33,17 +33,17 @@ include "controller/cadastra_usuario.php";
                 
                 <div class="mb-3">
                     <label for="username" class="form-label">Nome de usuário *</label>
-                    <input type="text" class="form-control" id="username" name="username">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Escolha um nome de usuário">
                     
                 </div>
                 <div class="mb-3">
                     <label for="senha1" class="form-label">Senha *</label>
-                    <input type="password" class="form-control" id="senha1" name="senha1">
+                    <input type="password" class="form-control" id="senha1" name="senha1" placeholder="Escolha uma senha">
                 </div>
 
                 <div class="mb-3">
                     <label for="senha2" class="form-label">Repita a senha *</label>
-                    <input type="password" class="form-control" id="senha2" name="senha2">
+                    <input type="password" class="form-control" id="senha2" name="senha2" placeholder="Repita a senha">
                 </div>
 
                 <button type="submit" class="btn btn-success form-control mb-3" id="cadastro" name="cadastro">Cadastrar</button>
