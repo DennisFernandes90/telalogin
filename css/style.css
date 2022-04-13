@@ -2,8 +2,12 @@
     max-width: 400px;
     margin: auto;
     margin-top: 150px;
-    background-color: rgb(220, 220, 220);
+    background-color: #EEE8A9;
     padding: 20px 10px;
+
+    box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
 }
 
 #error-message, #success-message{
@@ -21,4 +25,17 @@
 
 .logout-box{
     text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to right, #5999D7, #00B6E5, #00D0D9 );
+}
+
+#cadastro, #login{
+    background-color: #007066;
+    color: white;
+}
+
+#cadastro:hover, #login:hover{
+    background-color: #0b978c;
 }

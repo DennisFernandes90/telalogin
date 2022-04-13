@@ -42,7 +42,7 @@ include "controller/login_usuario.php";
                 </div>
 
 
-                <button type="submit" class="btn btn-success form-control mb-3" id="login" name="login">Fazer Login</button>
+                <button type="submit" class="btn form-control mb-3" id="login" name="login">Fazer Login</button>
 
                 <div class="logout-box">
                     <a href="index.php">Fazer Cadastro</a>

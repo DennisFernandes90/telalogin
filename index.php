@@ -46,7 +46,7 @@ include "controller/cadastra_usuario.php";
                     <input type="password" class="form-control" id="senha2" name="senha2" placeholder="Repita a senha">
                 </div>
 
-                <button type="submit" class="btn btn-success form-control mb-3" id="cadastro" name="cadastro">Cadastrar</button>
+                <button type="submit" class="btn form-control mb-3" id="cadastro" name="cadastro">Cadastrar</button>
 
                 <div class="logout-box">
                     <a href="login.php">Fazer Login</a>
